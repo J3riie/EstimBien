@@ -1,24 +1,0 @@
-
-*** These modified files were found in JOE when it aborted on Thu Feb  7 13:05:10 2019
-*** JOE was aborted because the terminal closed
-
-*** Fichier '/auto_home/ceven/public_html/ProjetUltimeL3/TER_S6_EstimationBienMobilier/.git/MERGE_MSG'
-Merge branch 'maste' of gitlab.info-ufr.univ-montp2.fr:TER_S6/TER_S6_EstimationBienMobilier
-
-# Veuillez entrer un message de validation pour expliquer en quoi cette fusion est
-# nécessaire, surtout si cela fusionne une branche amont mise à jour dans une branche de sujet.
-#
-# Les lignes commençant par '#' seront ignorées, et un message vide
-# abandonne la validation.
-
-*** Fichier '(Sans nom)'
-/auto_home/ceven/HLIN408/.git/COMMIT_EDITMSG
-/auto_home/ceven/ProjetPhpL3/Projet_web_L3/.git/MERGE_MSG
-/auto_home/ceven/ProjetPhpL3/Projet_web_L3/.git/MERGE_MSG
-/auto_home/ceven/ProjetPhpL3/Projet_web_L3/.git/COMMIT_EDITMSG
-/auto_home/ceven/ProjetS5/Projet_web_L3/.git/COMMIT_EDITMSG
-/auto_home/ceven/public_html/ProjetUltimeL3/TER_S6_EstimationBienMobilier/.git/MERGE_MSG
-
-*** Fichier '* Startup Log *'
-Traitement de '/etc/joe/editorrc'...Traitement de '/etc/joe/ftyperc'...Finished processing /etc/joe/ftyperc
-Finished processing /etc/joe/editorrc
