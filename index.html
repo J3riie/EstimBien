@@ -6,25 +6,25 @@
 	<title> Site Immobilier </title>
 </head>
 <body>
-	<div id='cssmenu'>
+	<nav id='cssmenu'>
 		<ul>
 			<li class='active'><a href='index.html' ><span>Accueil</span></a></li>
 			<li><a href='Méthodes.html' target="_blank"><span>Nos méthodes</span></a></li>
 			<li><a href='Estimation.html'><span>Estimation du bien immobilier</span></a></li>
 			<li class='last'><a href='Contact.html'><span>Contactez Nous</span></a></li>
 		</ul>
-	</div>
+	</nav>
 
 	<form method="post" action="traitement.php">
 		<br>
 		<div id="my-menu">
 			<!-- Le label -->
-			<label for="toggle-block">Informations Générales (obligatoire)</label> 
+			<label for="toggle-block">Informations générales (obligatoire)</label> 
 			<!-- La checkbox que je choisis cochée au démarrage -->
 			<input id="toggle-block" name="toggle-block" type="checkbox" checked />  
 			<!-- Le bloc à afficher -->
 			<div id="my-block">
-				<label>Code Postal</label> : <input type="number" name="CodeP" />
+				<label>Code postal</label> : <input type="number" name="CodeP" />
 				<br>
 				<label>Ville</label> : <input type="text" name="Ville" />
 				<br>
@@ -58,15 +58,15 @@
 			<!-- Le bloc à afficher -->
 			<div id="my-block">
 				
-				<label>Etat du Bien</label> : <input type="range" />
+				<label>Etat du bien</label> : <input type="range" />
 				<br>     	
 				<label>Etat de la copropriété </label> : <input type="range" />
 				<br>
 				<label>Etat des murs </label> : <input type="range" />
 				<br>
-				<label>Etat Electricité/plomberie </label> : <input type="range" />
+				<label>Etat electricité/plomberie </label> : <input type="range" />
 				<br>
-				<label>Etat Isolement </label> : <input type="range" />
+				<label>Etat isolement </label> : <input type="range" />
 
 			</div>
 		</div>
@@ -85,13 +85,13 @@
 				<br>
 				Population : <input type="range" />
 				<br>
-				Proximité des Transports : <input type="range" />
+				Proximité des transports : <input type="range" />
 				<br>
-				Proximité des Ecoles : <input type="range" />
+				Proximité des ecoles : <input type="range" />
 				<br>
-				Proximité des Commerces : <input type="range" />
+				Proximité des commerces : <input type="range" />
 				<br>
-				Orientation du Bien :
+				Orientation du bien :
 				<select name="Orient" id="Orient">
 					<option value="Est">Est</option>
 					<option value="Sud-Est" >Sud-Est</option>
@@ -103,11 +103,11 @@
 					<option value="Nord-Est">Nord-Est</option>
 				</select>
 				<br>
-				<input type="checkbox" name="EauUsee" id="EauUsee"/>  <label for="EauUsee">Relié aux Services des Eaux Usées</label>
+				<input type="checkbox" name="EauUsee" id="EauUsee"/>  <label for="EauUsee">Relié aux services des eaux usées</label>
 				<br>
-				<input type="checkbox" name="Mitoyen" id="Mitoyen"/> <label for="Mitoyen">Bien Mitoyen </label>
+				<input type="checkbox" name="Mitoyen" id="Mitoyen"/> <label for="Mitoyen">Bien mitoyen </label>
 				<br>
-				<input type="checkbox" name="Fibre" id="Fibre"/> <label for="Fibre">Eligible à la Fibre </label>
+				<input type="checkbox" name="Fibre" id="Fibre"/> <label for="Fibre">Eligible à la fibre </label>
 
 			</div>
 		</div>
@@ -135,7 +135,7 @@
 				<br>
 				<input type="checkbox" name="Terrasse" id="Terrasse" /> <label for="Terrasse">Terrasse</label>
 				<br>
-				<input type="checkbox" name="Terrain de Tennis" id="Terrain de Tennis" /> <label for="Terrain de Tennis">Terrain de Tennis</label>
+				<input type="checkbox" name="Terrain de Tennis" id="Terrain de Tennis" /> <label for="Terrain de Tennis">Terrain de tennis</label>
 				<br>
 				<input type="checkbox" name="Cave" id="Cave" /> <label for="Cave">Cave</label>
 				<br>       
