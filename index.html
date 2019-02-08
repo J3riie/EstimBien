@@ -2,167 +2,152 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="base.css" />
 <html lang="fr">
-  <head>
-    <title> Site Immobilier </title>
-  </head>
-  <body>
-  	<div id='cssmenu'>
-  		<ul>
-  			<li class='active'><a href='index.html' ><span>Accueil</span></a></li>
-  			<li><a href='Méthodes.html' target="_blank"><span>Nos méthodes</span></a></li>
-  			<li><a href='Estimation.html'><span>Estimation du bien immobilier</span></a></li>
-  			<li class='last'><a href='Contact.html'><span>Contactez Nous</span></a></li>
-  		</ul>
-  	</div>
+<head>
+	<title> Site Immobilier </title>
+</head>
+<body>
+	<div id='cssmenu'>
+		<ul>
+			<li class='active'><a href='index.html' ><span>Accueil</span></a></li>
+			<li><a href='Méthodes.html' target="_blank"><span>Nos méthodes</span></a></li>
+			<li><a href='Estimation.html'><span>Estimation du bien immobilier</span></a></li>
+			<li class='last'><a href='Contact.html'><span>Contactez Nous</span></a></li>
+		</ul>
+	</div>
 
-  	<form method="post" action="traitement.php">
-    <p>Ceci est un formulaire</p>
-    
-    <br>
-       <div id="my-menu">
-     <!-- Le label -->
-     <label for="toggle-block">Informations Générales (obligatoire)</label> 
-     <!-- La checkbox que je choisis cochée au démarrage -->
-     <input id="toggle-block" name="toggle-block" type="checkbox" checked />  
-     <!-- Le bloc à afficher -->
-     <div id="my-block">
-     	
-     	<label for="pays">Dans quel pays habitez-vous ?</label>
-       <select name="pays" id="pays">
-           <option value="espagne">Espagne</option>
-           <option value="france" selected>France</option>
-           <option value="italie">Italie</option>
-           <option value="royaume-uni">Royaume-Uni</option>
-           <option value="canada">Canada</option>
-           <option value="etats-unis">États-Unis</option>
-           <option value="chine">Chine</option>
-           <option value="japon">Japon</option>
-       </select>
-       <br>
-    <label>Code Postal</label> : <input type="number" name="CodeP" />
-    <br>
-    <label>Ville</label> : <input type="text" name="Ville" />
-    <br>
-    <label>Adresse</label> : <input type="text" name="Adresse" />
-	<br> 
-	<label>Combien de m² ? </label> : <input type="number" />
-	<br> 
-	<label>Nombre de pièces ? </label> : <input type="number" />
-	<br> 
-	<label>Nombre de salle de bain ? </label> : <input type="number" />
-	<br> 
-	<label for="typeB">Quel est le type de bien ?</label>
-       <select name="typeB" id="typeB">
-           <option value="Maison">Maison</option>
-           <option value="Appartement" >Appartement</option>
-           <option value="Duplex">Duplex</option>
-           <option value="Triplex">Triplex</option>
-           <option value="Loft/Atelier">Loft/Atelier</option>
-           <option value="Hotel">Hotel</option>
-       </select>
-       <br>
+	<form method="post" action="traitement.php">
+		<br>
+		<div id="my-menu">
+			<!-- Le label -->
+			<label for="toggle-block">Informations Générales (obligatoire)</label> 
+			<!-- La checkbox que je choisis cochée au démarrage -->
+			<input id="toggle-block" name="toggle-block" type="checkbox" checked />  
+			<!-- Le bloc à afficher -->
+			<div id="my-block">
+				<label>Code Postal</label> : <input type="number" name="CodeP" />
+				<br>
+				<label>Ville</label> : <input type="text" name="Ville" />
+				<br>
+				<label>Adresse</label> : <input type="text" name="Adresse" />
+				<br>
+				<label for="typeB">Quel est le type de bien ?</label>
+				<select name="typeB" id="typeB">
+					<option value="Maison">Maison</option>
+					<option value="Appartement" >Appartement</option>
+					<option value="Duplex">Duplex</option>
+					<option value="Triplex">Triplex</option>
+					<option value="Loft/Atelier">Loft/Atelier</option>
+					<option value="Hotel">Hotel</option>
+				</select>
+				<br>
+				<label>Combien de m² ? </label> : <input type="number" />
+				<br> 
+				<label>Nombre de pièces ? </label> : <input type="number" />
+				<br> 
+				<label>Nombre de salle de bain ? </label> : <input type="number" />
+				
 
-     </div>
-</div>
-<br><br>
-<div id="my-menu">
-     <!-- Le label -->
-     <label for="toggle-block">Travaux</label> 
-     <!-- La checkbox que je choisis cochée au démarrage -->
-     <input id="toggle-block" name="toggle-block" type="checkbox" />  
-     <!-- Le bloc à afficher -->
-     <div id="my-block">
-     	
-     	<label>Etat du Bien</label> : <input type="range" />
-     	<br>     	
-     	<label>Etat de la copropriété </label> : <input type="range" />
-     	<br>
-     	<label>Etat des murs </label> : <input type="range" />
-     	<br>
-     	<label>Etat Electricité/plomberie </label> : <input type="range" />
-     	<br>
-     	<label>Etat Isolement </label> : <input type="range" />
+			</div>
+		</div>
+		<br><br>
+		<div id="my-menu">
+			<!-- Le label -->
+			<label for="toggle-block">Travaux</label> 
+			<!-- La checkbox que je choisis cochée au démarrage -->
+			<input id="toggle-block" name="toggle-block" type="checkbox" />  
+			<!-- Le bloc à afficher -->
+			<div id="my-block">
+				
+				<label>Etat du Bien</label> : <input type="range" />
+				<br>     	
+				<label>Etat de la copropriété </label> : <input type="range" />
+				<br>
+				<label>Etat des murs </label> : <input type="range" />
+				<br>
+				<label>Etat Electricité/plomberie </label> : <input type="range" />
+				<br>
+				<label>Etat Isolement </label> : <input type="range" />
 
-     	</div>
-</div>
-<br><br>
- <div id="my-menu">
-     <!-- Le label -->
-     <label for="toggle-block">Environnement du bien</label> 
-     <!-- La checkbox que je choisis cochée au démarrage -->
-     <input id="toggle-block" name="toggle-block" type="checkbox" />  
-     <!-- Le bloc à afficher -->
-     <div id="my-block">
-     	
-     	<label>Luminosité</label> : <input type="range" />
-     	<br>
-     	<label>Nuisance sonore </label> : <input type="range" />
-     	<br>
-     	<label>Population </label> : <input type="range" />
-     	<br>
-     	<label>Proximité des Transports</label> : <input type="range" />
-     	<br>
-     	<label>Proximité des Ecoles</label> : <input type="range" />
-     	<br>
-     	<label>Proximité des Commerces</label> : <input type="range" />
-     	<br>
-     	<label>Qualité de la Connection Internet</label> : <input type="range" />
-     	<br>
-   	<label for="Orient">Vers où est orienté le bien ?</label>
-       <select name="Orient" id="Orient">
-           <option value="Est">Est</option>
-           <option value="Sud-Est" >Sud-Est</option>
-           <option value="Sud" >Sud</option>
-           <option value="Sud-Ouest" >Sud-Ouest</option>
-           <option value="Ouest">Ouest</option>
-           <option value="Nord-Ouest">Nord-Ouest</option>
-           <option value="Nord">Nord</option>
-           <option value="Nord-Est">Nord-Est</option>
-       </select>
-       <br>
-        <input type="checkbox" name="EauUsee" id="EauUsee"/> Relié aux Services des Eaux Usées <label for="EauUsee"></label>
-       <br>
-        <input type="checkbox" name="Mitoyen" id="Mitoyen"/> Bien Mitoyen <label for="Mitoyen"></label>
+			</div>
+		</div>
+		<br><br>
+		<div id="my-menu">
+			<!-- Le label -->
+			<label for="toggle-block">Environnement du bien</label> 
+			<!-- La checkbox que je choisis cochée au démarrage -->
+			<input id="toggle-block" name="toggle-block" type="checkbox" />  
+			<!-- Le bloc à afficher -->
+			<div id="my-block">
+				
+				Luminosité : <input type="range" />
+				<br>
+				Nuisance sonore : <input type="range" />
+				<br>
+				Population : <input type="range" />
+				<br>
+				Proximité des Transports : <input type="range" />
+				<br>
+				Proximité des Ecoles : <input type="range" />
+				<br>
+				Proximité des Commerces : <input type="range" />
+				<br>
+				Orientation du Bien :
+				<select name="Orient" id="Orient">
+					<option value="Est">Est</option>
+					<option value="Sud-Est" >Sud-Est</option>
+					<option value="Sud" >Sud</option>
+					<option value="Sud-Ouest" >Sud-Ouest</option>
+					<option value="Ouest">Ouest</option>
+					<option value="Nord-Ouest">Nord-Ouest</option>
+					<option value="Nord">Nord</option>
+					<option value="Nord-Est">Nord-Est</option>
+				</select>
+				<br>
+				<input type="checkbox" name="EauUsee" id="EauUsee"/>  <label for="EauUsee">Relié aux Services des Eaux Usées</label>
+				<br>
+				<input type="checkbox" name="Mitoyen" id="Mitoyen"/> <label for="Mitoyen">Bien Mitoyen </label>
+				<br>
+				<input type="checkbox" name="Fibre" id="Fibre"/> <label for="Fibre">Eligible à la Fibre </label>
 
-     </div>
-</div>
-<br><br>
- <div id="my-menu">
-     <!-- Le label -->
-     <label for="toggle-block">Autres informations</label> 
-     <!-- La checkbox que je choisis cochée au démarrage -->
-     <input id="toggle-block" name="toggle-block" type="checkbox" />  
-     <!-- Le bloc à afficher -->
-     <div id="my-block">
-     
-     	Cochez les options de votre bien:<br />
-	<input type="checkbox" name="piscine" id="piscine" /> <label for="piscine">Piscine</label><br />
+			</div>
+		</div>
+		<br><br>
+		<div id="my-menu">
+			<!-- Le label -->
+			<label for="toggle-block">Autres informations</label> 
+			<!-- La checkbox que je choisis cochée au démarrage -->
+			<input id="toggle-block" name="toggle-block" type="checkbox" />  
+			<!-- Le bloc à afficher -->
+			<div id="my-block">
+				
+				Cochez les options de votre bien:<br />
+				<input type="checkbox" name="piscine" id="piscine" /> <label for="piscine">Piscine</label><br />
 
-       <input type="checkbox" name="Jardin" id="Jardin" /> <label for="Jardin">Jardin</label><br />
+				<input type="checkbox" name="Jardin" id="Jardin" /> <label for="Jardin">Jardin</label><br />
 
-       <input type="checkbox" name="Ascenseur" id="Ascenseur" /> <label for="Ascenseur">Ascenseur</label><br />
+				<input type="checkbox" name="Ascenseur" id="Ascenseur" /> <label for="Ascenseur">Ascenseur</label><br />
 
-       <input type="checkbox" name="Parking" id="Parking" /> <label for="Parking">Parking</label>
-       <br>
-       <input type="checkbox" name="Veranda" id="Veranda" /> <label for="Veranda">Veranda</label>
-       <br>
-       <input type="checkbox" name="Balcon" id="Balcon" /> <label for="Balcon">Balcon</label>
-       <br>
-       <input type="checkbox" name="Terrasse" id="Terrasse" /> <label for="Terrasse">Terrasse</label>
-       <br>
-       <input type="checkbox" name="Terrain de Tennis" id="Terrain de Tennis" /> <label for="Terrain de Tennis">Terrain de Tennis</label>
-       <br>
-       <input type="checkbox" name="Cave" id="Cave" /> <label for="Cave">Cave</label>
-       <br>       
-       <input type="checkbox" name="Grenier" id="Grenier" /> <label for="Grenier">Grenier</label>
-       <br>
+				<input type="checkbox" name="Parking" id="Parking" /> <label for="Parking">Parking</label>
+				<br>
+				<input type="checkbox" name="Veranda" id="Veranda" /> <label for="Veranda">Veranda</label>
+				<br>
+				<input type="checkbox" name="Balcon" id="Balcon" /> <label for="Balcon">Balcon</label>
+				<br>
+				<input type="checkbox" name="Terrasse" id="Terrasse" /> <label for="Terrasse">Terrasse</label>
+				<br>
+				<input type="checkbox" name="Terrain de Tennis" id="Terrain de Tennis" /> <label for="Terrain de Tennis">Terrain de Tennis</label>
+				<br>
+				<input type="checkbox" name="Cave" id="Cave" /> <label for="Cave">Cave</label>
+				<br>       
+				<input type="checkbox" name="Grenier" id="Grenier" /> <label for="Grenier">Grenier</label>
+				<br>
 
-     </div>
-</div>
-<br>
-<input type="submit" name="Envoyer" value="Envoyer le formulaire" > 
+			</div>
+		</div>
+		<br>
+		<input type="submit" name="Envoyer" value="Envoyer le formulaire" > 
+	</form>
 
-</form>
-
-  </body>
+</body>
 </html>
+	
