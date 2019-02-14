@@ -13,11 +13,19 @@ footer
 body
 {
     background-color: #6C62AC;
-    color: blue;
+    color: black;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    
+}
+
+GrosTitre
+{
+color:darkblue;
+text-align:center;
+font-size: 45px;
+font-weight:bold;
+text-decoration: none;
 }
 
 #my-menu{
@@ -110,8 +118,4 @@ body
   -ms-transition: width .25s;
   -o-transition: width .25s;
   transition: width .25s;
-}
-#cssmenu ul li.active a {
-  color: #00308f;
-}
 }
